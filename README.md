@@ -17,6 +17,8 @@
 - [34:20](https://www.youtube.com/watch?v=MRyky6n0ek0&t=2060s) Retoques visuales finales
 
 ---
+![resize](src/assets/images/resize.gif)
+---
 
 ## Comandos
 
