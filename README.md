@@ -17,6 +17,35 @@
 - [34:20](https://www.youtube.com/watch?v=MRyky6n0ek0) Retoques visuales finales
 
 ---
+
+## Comandos
+
+Crear y correr proyecto en blanco
+
+```bash
+ng new angular-indicadores
+cd angular-indicadores
+ng serve --open
+ng s -o # versión corta
+```
+
+Instalación de [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/) (para uso de estilos CSS) editar `angular.json` y agregar en el nodo `projects > [name-project] > architect > build > options > style`
+
+```bash
+"styles": [
+  "node_modules/bootstrap/scss/bootstrap.scss",
+  "src/styles.scss"
+],
+```
+
+Para la creación del componente
+
+```bash
+ng generate component componente/indicadores
+ng g c componente/indicadores # versión corta
+```
+
+---
 Repositorio: https://github.com/miguel-coppiloto/angular-indicadores
 
 Pack de extensiones Coppiloto: https://marketplace.visualstudio.com/items?itemName=coppiloto.extension-package-for-ionic
