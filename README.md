@@ -1,11 +1,11 @@
-# Angular + API externa
+# Angular + consumo de API externa
 
-![Ver tutorial en Youtube](src/assets/images/youtube-thumb.png)
+[<img src="src/assets/images/youtube-thumb.png">](https://www.youtube.com/watch?v=MRyky6n0ek0)
 
 [Ver en Youtube](https://www.youtube.com/watch?v=MRyky6n0ek0) (38 min)
 
 - [00:00](https://www.youtube.com/watch?v=MRyky6n0ek0&t=0s) ¿Qué se desarrollará? Visualizador Indicadores económicos diarios usando la API de mindicador.cl
-- [00:34](https://www.youtube.com/watch?v=MRyky6n0ek0&t=34s) Instalación de programas necesarios: nodejs (npm), angular CLI, VS Code + extensiones (Pack de Coppiloto)
+- [00:34](https://www.youtube.com/watch?v=MRyky6n0ek0&t=34s) Instalación de programas necesarios: Nodejs (npm), Angular CLI, VS Code (Pack de extensiones **Coppiloto**)
 - [02:23](https://www.youtube.com/watch?v=MRyky6n0ek0&t=143s) Creación de aplicación web `ng new` y ejecución local `ng s -o`
 - [06:08](https://www.youtube.com/watch?v=MRyky6n0ek0&t=368s) Exploración de API abierta de mindicador.cl
 - [08:13](https://www.youtube.com/watch?v=MRyky6n0ek0&t=493s) Instalación de Bootstrap en Angular
@@ -16,9 +16,7 @@
 - [25:24](https://www.youtube.com/watch?v=MRyky6n0ek0&t=1524s) Renderizar en pantalla el objeto/propiedad (JSON) de cada indicador
 - [34:20](https://www.youtube.com/watch?v=MRyky6n0ek0&t=2060s) Retoques visuales finales
 
----
-![resize](src/assets/images/resize.gif)
----
+[<img src="src/assets/images/resize.gif">](https://www.youtube.com/watch?v=MRyky6n0ek0)
 
 ## Comandos
 
@@ -58,8 +56,8 @@ ng g c componente/indicadores # versión corta
 
 ---
 
-Repositorio: https://github.com/miguel-coppiloto/angular-indicadores
+🌱 Repositorio: https://github.com/miguel-coppiloto/angular-indicadores
 
-Pack de extensiones Coppiloto: https://marketplace.visualstudio.com/items?itemName=coppiloto.extension-package-for-ionic
+🌱 Pack de extensiones Coppiloto: https://marketplace.visualstudio.com/items?itemName=coppiloto.extension-package-for-ionic
 
-Contacto: miguel@coppiloto.com
+🌱 Contacto: miguel@coppiloto.com
