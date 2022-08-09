@@ -1,27 +1,24 @@
-# AngularIndicadores
+# Angular + API externa
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
+![Ver tutorial en Youtube](src/assets/images/youtube-thumb.png)
 
-## Development server
+[Ver en Youtube](https://www.youtube.com/watch?v=MRyky6n0ek0) (38 min)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [00:00](https://www.youtube.com/watch?v=MRyky6n0ek0) ¿Qué se desarrollará? Visualizador Indicadores económicos diarios usando la API de mindicador.cl
+- [00:34](https://www.youtube.com/watch?v=MRyky6n0ek0) Instalación de programas necesarios: nodejs (npm), angular CLI, VS Code + extensiones (Pack de Coppiloto)
+- [02:23](https://www.youtube.com/watch?v=MRyky6n0ek0) Creación de aplicación web `ng new` y ejecución local `ng s -o`
+- [06:08](https://www.youtube.com/watch?v=MRyky6n0ek0) Exploración de API abierta de mindicador.cl
+- [08:13](https://www.youtube.com/watch?v=MRyky6n0ek0) Instalación de Bootstrap en Angular
+- [12:31](https://www.youtube.com/watch?v=MRyky6n0ek0) Creación de componente `ng g c nombre-componente` para separar lógica
+- [16:26](https://www.youtube.com/watch?v=MRyky6n0ek0) Inyección de HttpClient para traer los datos de la API
+- [21:13](https://www.youtube.com/watch?v=MRyky6n0ek0) Renderizar variables (.ts) de clase en vista (.html)
+- [22:28](https://www.youtube.com/watch?v=MRyky6n0ek0) Creación de Interface (representación de estructura de dato) usando extensión "JSON to TS"
+- [25:24](https://www.youtube.com/watch?v=MRyky6n0ek0) Renderizar en pantalla el objeto/propiedad (JSON) de cada indicador
+- [34:20](https://www.youtube.com/watch?v=MRyky6n0ek0) Retoques visuales finales
 
-## Code scaffolding
+---
+Repositorio: https://github.com/miguel-coppiloto/angular-indicadores
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Pack de extensiones Coppiloto: https://marketplace.visualstudio.com/items?itemName=coppiloto.extension-package-for-ionic
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Contacto: miguel@coppiloto.com
