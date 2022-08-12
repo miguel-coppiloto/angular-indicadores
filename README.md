@@ -2,7 +2,9 @@
 
 [<img src="src/assets/images/youtube-thumb.png">](https://www.youtube.com/watch?v=MRyky6n0ek0)
 
-[Ver en Youtube](https://www.youtube.com/watch?v=MRyky6n0ek0) (38 min)
+Ver aplicación resultado: https://repo.coppiloto.com/angular-indicadores/
+
+[Ver paso a paso en Youtube](https://www.youtube.com/watch?v=MRyky6n0ek0) (38 min)
 
 - [00:00](https://www.youtube.com/watch?v=MRyky6n0ek0&t=0s) ¿Qué se desarrollará? Visualizador Indicadores económicos diarios usando la API de mindicador.cl
 - [00:34](https://www.youtube.com/watch?v=MRyky6n0ek0&t=34s) Instalación de programas necesarios: Nodejs (npm), Angular CLI, VS Code (Pack de extensiones **Coppiloto**)
@@ -52,6 +54,12 @@ Para la creación del componente
 ```bash
 ng generate component componente/indicadores
 ng g c componente/indicadores # versión corta
+```
+
+Compilación para subida a servidor
+
+```bash
+ng build --configuration production --base-href /angular-indicadores/
 ```
 
 ---
