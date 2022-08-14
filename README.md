@@ -42,9 +42,9 @@ ng s -o # versión corta
 
 Instalación de [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/) (para uso de estilos CSS) editar `angular.json` y agregar en el nodo `projects > [name-project] > architect > build > options > style`
 
-```bash
+```diff
 "styles": [
-  "node_modules/bootstrap/scss/bootstrap.scss",
++  "node_modules/bootstrap/scss/bootstrap.scss",
   "src/styles.scss"
 ],
 ```
